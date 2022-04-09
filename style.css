@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #0096D6;
+}
+
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
+}
+
+#container-calculator{
+	position: absolute;
+	left: 510px;
+	top:100px;
+	background-color: rgb(158, 155, 155);
+	border: 1px solid #000;
+	border-radius: 10px;
+	padding: 10px;
+	width: 240px;
+	box-shadow: 0px 5px 5px #000;
+}
+
+#logo{
+	position: relative;
+	left: 80px;
+	width: 50px;
+	margin: 5px;
+	border: none;
+	border-radius: 40px;
+	padding: 5px;
+	background-color: #0096D6;
+	color: #fff;
+	text-align: center;
+	box-shadow: 0px 1px 2px #fff;
+}
+
+#display-result{
+	margin: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #000;
+	height: 30px;
+	border-radius: 10px;
+	background-color: #fff;
+	padding: 15px;
+	font-size: 20px;
+}
+
+.fila li{
+	display: inline-block;
+}
+
+.fila li button{
+	margin: 2px;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 50%;
+}
+
+.botoes{
+	width: 50px;
+	height: 50px;
+	border: 1px solid grey;
+	font-weight: bold;
+	font-size: 15px;
+	transition: 300ms;
+	font-family: Verdana;
+
+}
+
+.botoes:hover{
+	box-shadow: 0px 3px 8px #000;
+    background-color: rgb(218, 218, 218);
+
+}
+
+#clean{
+    width: 110px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #ff0000;
+    color: #fff;
+    border: 1px solid #000;
+}
+
+#equal{
+    width: 110px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #027a1c;
+    color: #fff;
+    border: 1px solid #000;
+}
